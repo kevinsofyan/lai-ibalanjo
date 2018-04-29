@@ -1,5 +1,5 @@
 header.with-background {
-    background: url('/img/triangles.svg');
+    background: url('/img/orange-background.jpg');
     background-size: cover;
     color: $white;
 
@@ -13,6 +13,7 @@ header.with-background {
         font-weight: bold;
         font-size: 28px;
       }
+
 
       ul {
         // display: flex;
@@ -57,7 +58,7 @@ header.with-background {
   }
 
   header {
-    background: $gray-background;
+    background: $orange;
 
     .top-nav {
       display: flex;
