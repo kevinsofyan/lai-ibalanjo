@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Voyager;
 
 use App\Order;
+use TCG\Voyager\Http\Controllers\VoyagerBaseController;
 use Validator;
 use App\Product;
 use App\Category;
@@ -13,8 +14,10 @@ use TCG\Voyager\Events\BreadDataAdded;
 use TCG\Voyager\Events\BreadDataUpdated;
 use TCG\Voyager\Http\Controllers\VoyagerBreadController;
 
-class OrdersController extends VoyagerBreadController
+class OrdersController extends VoyagerBaseController
 {
+
+
     //***************************************
     //                _____
     //               |  __ \
